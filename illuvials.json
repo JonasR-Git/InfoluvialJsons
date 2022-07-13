@@ -1,0 +1,152 @@
+[
+    {
+        "Id": 0,
+        "Name": "B",
+        "Tier" : 1,
+        "Stage":  1,
+        "SizeUnits": 3,
+        "MasteryPoints": 100,
+        "Image:": "",
+        "Line": {
+            "Name":"Line name",
+            "LinkTier1": "",
+            "ImageTier1": "illuvial_image_link",
+            "LinkToPageTier1":"",
+            "LinkTier2": "",
+            "ImageTier2": "illuvial_image_link",
+            "LinkToPageTier2":"",
+            "linkTier3": "",
+            "ImageTier3": "illuvial_image_link",
+            "LinkToPageTier3":""
+        },
+       "CombatAffinity": {
+            "Main": "wildfire",
+            "Affinities": ["nature", "fire", "wildfire"]
+        },
+        "CombatClass": {
+            "main": "Slayer",
+            "classes": ["fighter", "rouge", "slayer"]
+        },
+        "Stats": {
+            "MaxHealth": "",
+            "StartingEnergy": "",
+            "EnergyCost": "",
+            "PhysicalResist": "",
+            "EnergyResist":"",
+            "Grit": "",
+            "Resolve": "",
+            "Precision": "",
+            "AttackPhysicalDamage": "",
+            "AttackEnergyDamage": "",
+            "AttackPureDamage": "",
+            "AttackSpeed": "",
+            "Savagery": "",
+            "OmegaPower": "",
+            "AttackRange": "",
+            "HealthRegeneration": "",
+            "EnergyRegeneration": ""
+        },
+        "BasicAttack":
+        {
+            "Name": "",
+            "Targeting": "",
+            "Effects": {
+                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "DamageType": "",
+                "Amount": ""
+            }
+        },
+        "Omega": {
+            "Name": "",
+            "Targeting": "",
+            "Effects": {
+                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "DamageType": "",
+                "Amount": ""
+            }
+        },
+        "Hyper": {
+            "Name": "",
+            "Targeting": "",
+            "Effects": {
+                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "Amount": ""
+            }
+        }
+    },
+    {
+        "Id": 1,
+        "Name": "B",
+        "Tier" : 1,
+        "Stage":  1,
+        "SizeUnits": 3,
+        "MasteryPoints": 100,
+        "Image:": "",
+        "Line": {
+            "Name":"Line name",
+            "LinkTier1": "",
+            "ImageTier1": "illuvial_image_link",
+            "LinkToPageTier1":"",
+            "LinkTier2": "",
+            "ImageTier2": "illuvial_image_link",
+            "LinkToPageTier2":"",
+            "linkTier3": "",
+            "ImageTier3": "illuvial_image_link",
+            "LinkToPageTier3":""
+        },
+       "CombatAffinity": {
+            "Main": "wildfire",
+            "Affinities": ["nature", "fire", "wildfire"]
+        },
+        "CombatClass": {
+            "main": "Slayer",
+            "classes": ["fighter", "rouge", "slayer"]
+        },
+        "Stats": {
+            "MaxHealth": "",
+            "StartingEnergy": "",
+            "EnergyCost": "",
+            "PhysicalResist": "",
+            "EnergyResist":"",
+            "Grit": "",
+            "Resolve": "",
+            "Precision": "",
+            "AttackPhysicalDamage": "",
+            "AttackEnergyDamage": "",
+            "AttackPureDamage": "",
+            "AttackSpeed": "",
+            "Savagery": "",
+            "OmegaPower": "",
+            "AttackRange": "",
+            "HealthRegeneration": "",
+            "EnergyRegeneration": ""
+        },
+        "BasicAttack":
+        {
+            "Name": "",
+            "Targeting": "",
+            "Effects": {
+                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "DamageType": "",
+                "Amount": ""
+            }
+        },
+        "Omega": {
+            "Name": "",
+            "Targeting": "",
+            "Effects": {
+                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "DamageType": "",
+                "Amount": ""
+            }
+        },
+        "Hyper": {
+            "Name": "",
+            "Targeting": "",
+            "Effects": {
+                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "Amount": ""
+            }
+        }
+    }
+]

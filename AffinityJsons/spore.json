@@ -1,0 +1,7 @@
+{
+    "Name": "spore",
+    "Image": "https://ik.imagekit.io/2zcxm4xvo/Gallery/Affinities/Spore-Affinity.png",
+    "MultiplierBonus": "[2] 200 Area Energy Damage \n[3] 300 Area Energy Damage \n[4] 400 Area Energy Damage",
+    "Innate": "On Battle Start and every 15 seconds, Steam Illuvials engulf themselves with steam that last for 5 seconds, increasing their Energy Regen and causing their Attack to deal additional Energy Damage. When engluted, they deal damage in a 25 hexradius.", 
+    "Synergy":"Water Illuvials gain 3 Energy Regen last for 5 seconds and refresh every 15 seconds \n\nFire Illuvials gain 20 Energy Damage last for 5 seconds and refresh every 15 seconds."
+}
