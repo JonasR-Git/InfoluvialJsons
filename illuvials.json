@@ -1,75 +1,75 @@
 [
-    {
+     {
         "Id": 0,
-        "Name": "B",
+        "Name": "Atlas",
         "Tier" : 1,
         "Stage":  1,
-        "SizeUnits": 3,
-        "MasteryPoints": 100,
-        "Image:": "",
+        "SizeUnits": 5,
+        "MasteryPoints": 30,
+        "Image:": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Atlas.png"",
         "Line": {
-            "Name":"Line name",
+            "Name":"Axolotl",
             "LinkTier1": "",
-            "ImageTier1": "illuvial_image_link",
+            "ImageTier1": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Atlas.png",
             "LinkToPageTier1":"",
             "LinkTier2": "",
-            "ImageTier2": "illuvial_image_link",
+            "ImageTier2": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Axon.png",
             "LinkToPageTier2":"",
             "linkTier3": "",
-            "ImageTier3": "illuvial_image_link",
+            "ImageTier3": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Axodon.png",
             "LinkToPageTier3":""
         },
        "CombatAffinity": {
-            "Main": "wildfire",
-            "Affinities": ["nature", "fire", "wildfire"]
+            "Main": "water",
+            "Affinities": ["water", "", ""]
         },
         "CombatClass": {
-            "main": "Slayer",
-            "classes": ["fighter", "rouge", "slayer"]
+            "main": "bulwark",
+            "classes": ["bulwark", "", ""]
         },
         "Stats": {
-            "MaxHealth": "",
-            "StartingEnergy": "",
-            "EnergyCost": "",
-            "PhysicalResist": "",
-            "EnergyResist":"",
-            "Grit": "",
-            "Resolve": "",
-            "Precision": "",
-            "AttackPhysicalDamage": "",
-            "AttackEnergyDamage": "",
-            "AttackPureDamage": "",
-            "AttackSpeed": "",
-            "Savagery": "",
-            "OmegaPower": "",
-            "AttackRange": "",
-            "HealthRegeneration": "",
-            "EnergyRegeneration": ""
+            "MaxHealth": 900,
+            "StartingEnergy": 0,
+            "EnergyCost": null,
+            "PhysicalResist": 30,
+            "EnergyResist": 40,
+            "Grit": null,
+            "Resolve": null,
+            "Precision": 25,
+            "AttackPhysicalDamage": 25,
+            "AttackEnergyDamage": null,
+            "AttackPureDamage": null,
+            "AttackSpeed": 120,
+            "Savagery": null,
+            "OmegaPower": 100,
+            "AttackRange": 3,
+            "HealthRegeneration": null,
+            "EnergyRegeneration": null
         },
         "BasicAttack":
         {
             "Name": "",
-            "Targeting": "",
+            "Targeting": "target",
             "Effects": {
-                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "DamageType": "",
-                "Amount": ""
+                "Describtion": "Atlas attacks his current target",
+                "DamageType": "physical",
+                "Amount": "25"
             }
         },
         "Omega": {
             "Name": "",
-            "Targeting": "",
+            "Targeting": "target",
             "Effects": {
-                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "DamageType": "",
-                "Amount": ""
+                "Describtion": " Atlas generates a (20% Max Health + 100*OP) shield that last for up to 5 seconds. While shielded, attacks, deal (40*OP) additional energy damage.",
+                "DamageType": "energy damage",
+                "Amount": "40 * OP"
             }
         },
         "Hyper": {
             "Name": "",
             "Targeting": "",
             "Effects": {
-                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "Describtion": "",
                 "Amount": ""
             }
         }
