@@ -1,12 +1,162 @@
 [
-     {
-        "Id": 0,
-        "Name": "Atlas",
+    {
+       "Id": 0,
+       "Name": "Atlas",
+       "Tier" : 1,
+       "Stage":  1,
+       "SizeUnits": 5,
+       "MasteryPoints": 30,
+       "Image:": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Atlas.png",
+       "Line": {
+           "Name":"Axolotl",
+           "LinkTier1": "",
+           "ImageTier1": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Atlas.png",
+           "LinkToPageTier1":"",
+           "LinkTier2": "",
+           "ImageTier2": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Axon.png",
+           "LinkToPageTier2":"",
+           "linkTier3": "",
+           "ImageTier3": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Axodon.png",
+           "LinkToPageTier3":""
+       },
+      "CombatAffinity": {
+           "Main": "water",
+           "Affinities": ["water", "", ""]
+       },
+       "CombatClass": {
+           "main": "bulwark",
+           "classes": ["bulwark", "", ""]
+       },
+       "Stats": {
+           "MaxHealth": 900,
+           "StartingEnergy": 0,
+           "EnergyCost": null,
+           "PhysicalResist": 30,
+           "EnergyResist": 40,
+           "Grit": null,
+           "Resolve": null,
+           "Precision": 25,
+           "AttackPhysicalDamage": 25,
+           "AttackEnergyDamage": null,
+           "AttackPureDamage": null,
+           "AttackSpeed": 120,
+           "Savagery": null,
+           "OmegaPower": 100,
+           "AttackRange": 3,
+           "HealthRegeneration": null,
+           "EnergyRegeneration": null
+       },
+       "BasicAttack":
+       {
+           "Name": "",
+           "Targeting": "target",
+           "Effects": {
+               "Describtion": "Atlas attacks his current target",
+               "DamageType": "physical",
+               "Amount": "25"
+           }
+       },
+       "Omega": {
+           "Name": "",
+           "Targeting": "target",
+           "Effects": {
+               "Describtion": " Atlas generates a (20% Max Health + 100*OP) shield that last for up to 5 seconds. While shielded, attacks, deal (40*OP) additional energy damage.",
+               "DamageType": "energy damage",
+               "Amount": "40 * OP"
+           }
+       },
+       "Hyper": {
+           "Name": "",
+           "Targeting": "",
+           "Effects": {
+               "Describtion": "",
+               "Amount": ""
+           }
+       }
+   },
+    {
+        "Id": 1,
+        "Name": "Axon",
         "Tier" : 1,
-        "Stage":  1,
+        "Stage":  2,
         "SizeUnits": 5,
-        "MasteryPoints": 30,
-        "Image:": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Atlas.png",
+        "MasteryPoints": 40,
+        "Image:": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Axon.png",
+        "Line": {
+            "Name":"Axolotl",
+            "LinkTier1": "",
+            "ImageTier1": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Atlas.png",
+            "LinkToPageTier1":"",
+            "LinkTier2": "",
+            "ImageTier2": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Axon.png",
+            "LinkToPageTier2":"",
+            "linkTier3": "",
+            "ImageTier3": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Axodon.png",
+            "LinkToPageTier3":""
+        },
+    "CombatAffinity": {
+            "Main": "water",
+            "Affinities": ["water", "", ""]
+        },
+        "CombatClass": {
+            "main": "harbinger",
+            "classes": ["bulwark", "psion", "harbinger"]
+        },
+        "Stats": {
+            "MaxHealth": 1100,
+            "StartingEnergy": 0,
+            "EnergyCost": null,
+            "PhysicalResist": 30,
+            "EnergyResist": 40,
+            "Grit": null,
+            "Resolve": null,
+            "Precision": 25,
+            "AttackPhysicalDamage": 55,
+            "AttackEnergyDamage": null,
+            "AttackPureDamage": null,
+            "AttackSpeed": 110,
+            "Savagery": null,
+            "OmegaPower": 100,
+            "AttackRange": 3,
+            "HealthRegeneration": null,
+            "EnergyRegeneration": null
+        },
+        "BasicAttack":
+        {
+            "Name": "",
+            "Targeting": "target",
+            "Effects": {
+                "Describtion": "Axon attacks his current target",
+                "DamageType": "physical",
+                "Amount": "55"
+            }
+        },
+        "Omega": {
+            "Name": "",
+            "Targeting": "target",
+            "Effects": {
+                "Describtion": "Axon generates a (20% Max Health+200*OP) shield that lasts for up to 5 seconds. While shielded, attacks deal (150*OP) additional energy damage. When the shield expires, enemies within 20 hexradius take damage equal to 50% of the Max Shield amount.",
+                "DamageType": "energy damage",
+                "Amount": "60 * OP"
+            }
+        },
+        "Hyper": {
+            "Name": "",
+            "Targeting": "",
+            "Effects": {
+                "Describtion": "",
+                "Amount": ""
+            }
+        }
+    },
+    {
+        "Id": 2,
+        "Name": "Axodon",
+        "Tier" : 1,
+        "Stage":  3,
+        "SizeUnits": 5,
+        "MasteryPoints": 55,
+        "Image:": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Axodon.png",
         "Line": {
             "Name":"Axolotl",
             "LinkTier1": "",
@@ -20,15 +170,15 @@
             "LinkToPageTier3":""
         },
        "CombatAffinity": {
-            "Main": "water",
-            "Affinities": ["water", "", ""]
+            "Main": "tsunami",
+            "Affinities": ["water", "water", "tsunami"]
         },
         "CombatClass": {
-            "main": "bulwark",
-            "classes": ["bulwark", "", ""]
+            "main": "harbinger",
+            "classes": ["bulwark", "psion", "harbinger"]
         },
         "Stats": {
-            "MaxHealth": 900,
+            "MaxHealth": 1450,
             "StartingEnergy": 0,
             "EnergyCost": null,
             "PhysicalResist": 30,
@@ -36,10 +186,10 @@
             "Grit": null,
             "Resolve": null,
             "Precision": 25,
-            "AttackPhysicalDamage": 25,
+            "AttackPhysicalDamage": 95,
             "AttackEnergyDamage": null,
             "AttackPureDamage": null,
-            "AttackSpeed": 120,
+            "AttackSpeed": 80,
             "Savagery": null,
             "OmegaPower": 100,
             "AttackRange": 3,
@@ -51,18 +201,18 @@
             "Name": "",
             "Targeting": "target",
             "Effects": {
-                "Describtion": "Atlas attacks his current target",
+                "Describtion": "Axodon attacks his current target",
                 "DamageType": "physical",
-                "Amount": "25"
+                "Amount": "95"
             }
         },
         "Omega": {
             "Name": "",
             "Targeting": "target",
             "Effects": {
-                "Describtion": " Atlas generates a (20% Max Health + 100*OP) shield that last for up to 5 seconds. While shielded, attacks, deal (40*OP) additional energy damage.",
+                "Describtion": " Axodon generates a (20% Max Health + 200 * OP) shield that lasts for up to 5 secondes. While shielded, Axodon gains 25% Attack Speed and attacks deal (80*OP) additional energy damage. When the shield expires enemies within 20 hexradius take damage equal to 50 % of the Max Shield amount.",
                 "DamageType": "energy damage",
-                "Amount": "40 * OP"
+                "Amount": "80 * OP"
             }
         },
         "Hyper": {
@@ -75,67 +225,67 @@
         }
     },
     {
-        "Id": 1,
-        "Name": "B",
+        "Id": 3,
+        "Name": "Archie",
         "Tier" : 1,
         "Stage":  1,
         "SizeUnits": 3,
-        "MasteryPoints": 100,
-        "Image:": "",
+        "MasteryPoints": 30,
+        "Image:": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archie.png",
         "Line": {
-            "Name":"Line name",
+            "Name":"Turtle",
             "LinkTier1": "",
-            "ImageTier1": "illuvial_image_link",
+            "ImageTier1": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archie.png",
             "LinkToPageTier1":"",
             "LinkTier2": "",
-            "ImageTier2": "illuvial_image_link",
+            "ImageTier2": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archos.png",
             "LinkToPageTier2":"",
             "linkTier3": "",
-            "ImageTier3": "illuvial_image_link",
+            "ImageTier3": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archeleon.png",
             "LinkToPageTier3":""
         },
        "CombatAffinity": {
-            "Main": "wildfire",
-            "Affinities": ["nature", "fire", "wildfire"]
+            "Main": "nature",
+            "Affinities": ["nature", "", ""]
         },
         "CombatClass": {
-            "main": "Slayer",
-            "classes": ["fighter", "rouge", "slayer"]
+            "main": "empath",
+            "classes": ["empath", "", ""]
         },
         "Stats": {
-            "MaxHealth": "",
-            "StartingEnergy": "",
-            "EnergyCost": "",
-            "PhysicalResist": "",
-            "EnergyResist":"",
-            "Grit": "",
-            "Resolve": "",
-            "Precision": "",
-            "AttackPhysicalDamage": "",
-            "AttackEnergyDamage": "",
-            "AttackPureDamage": "",
-            "AttackSpeed": "",
-            "Savagery": "",
-            "OmegaPower": "",
-            "AttackRange": "",
-            "HealthRegeneration": "",
-            "EnergyRegeneration": ""
+            "MaxHealth": 900,
+            "StartingEnergy": 0,
+            "EnergyCost": null,
+            "PhysicalResist": 25,
+            "EnergyResist": 25,
+            "Grit": null,
+            "Resolve": null,
+            "Precision": 25,
+            "AttackPhysicalDamage": 70,
+            "AttackEnergyDamage": null,
+            "AttackPureDamage": null,
+            "AttackSpeed": 70,
+            "Savagery": null,
+            "OmegaPower": 100,
+            "AttackRange": 40,
+            "HealthRegeneration": null,
+            "EnergyRegeneration": null
         },
         "BasicAttack":
         {
             "Name": "",
-            "Targeting": "",
+            "Targeting": "target",
             "Effects": {
-                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "DamageType": "",
-                "Amount": ""
+                "Describtion": "Archie attacks his current target",
+                "DamageType": "physical",
+                "Amount": "70"
             }
         },
         "Omega": {
             "Name": "",
-            "Targeting": "",
+            "Targeting": "target",
             "Effects": {
-                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "Describtion": "Archie slams it's front legs to the ground creating a natural zone around themself, Allies within 25 hexradius recover Health (18% Max Health + 135*OP) over 4 seconds.",
                 "DamageType": "",
                 "Amount": ""
             }
@@ -144,7 +294,157 @@
             "Name": "",
             "Targeting": "",
             "Effects": {
-                "Describtion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "Describtion": "",
+                "Amount": ""
+            }
+        }
+    },
+    {
+        "Id": 4,
+        "Name": "Archos",
+        "Tier" : 1,
+        "Stage":  2,
+        "SizeUnits": 3,
+        "MasteryPoints": 40,
+        "Image:": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archos.png",
+        "Line": {
+            "Name":"Turtle",
+            "LinkTier1": "",
+            "ImageTier1": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archie.png",
+            "LinkToPageTier1":"",
+            "LinkTier2": "",
+            "ImageTier2": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archos.png",
+            "LinkToPageTier2":"",
+            "linkTier3": "",
+            "ImageTier3": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archeleon.png",
+            "LinkToPageTier3":""
+        },
+       "CombatAffinity": {
+            "Main": "nature",
+            "Affinities": ["nature", "", ""]
+        },
+        "CombatClass": {
+            "main": "aegis",
+            "classes": ["empath", "bulwark", "aegis"]
+        },
+        "Stats": {
+            "MaxHealth": 1150,
+            "StartingEnergy": 0,
+            "EnergyCost": null,
+            "PhysicalResist": 35,
+            "EnergyResist": 35,
+            "Grit": null,
+            "Resolve": null,
+            "Precision": 25,
+            "AttackPhysicalDamage": 100,
+            "AttackEnergyDamage": null,
+            "AttackPureDamage": null,
+            "AttackSpeed": 60,
+            "Savagery": null,
+            "OmegaPower": 100,
+            "AttackRange": 40,
+            "HealthRegeneration": null,
+            "EnergyRegeneration": null
+        },
+        "BasicAttack":
+        {
+            "Name": "",
+            "Targeting": "target",
+            "Effects": {
+                "Describtion": "Archos attacks his current target",
+                "DamageType": "physical",
+                "Amount": "100"
+            }
+        },
+        "Omega": {
+            "Name": "",
+            "Targeting": "target",
+            "Effects": {
+                "Describtion": "Archos slams it's front legs to the ground creating a natural zone around themself for three seconds, Allies within range recover (2% Max Health+28*OP) and Enemies take (10*OP) Energy Damage every 0.3 seconds. Enemies in the zone also become Rooted for 4 seconds.",
+                "DamageType": "",
+                "Amount": ""
+            }
+        },
+        "Hyper": {
+            "Name": "",
+            "Targeting": "",
+            "Effects": {
+                "Describtion": "",
+                "Amount": ""
+            }
+        }
+    },
+    {
+        "Id": 5,
+        "Name": "Archeleon",
+        "Tier" : 1,
+        "Stage":  3,
+        "SizeUnits": 3,
+        "MasteryPoints": 55,
+        "Image:": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archeleon.png",
+        "Line": {
+            "Name":"Turtle",
+            "LinkTier1": "",
+            "ImageTier1": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archie.png",
+            "LinkToPageTier1":"",
+            "LinkTier2": "",
+            "ImageTier2": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archos.png",
+            "LinkToPageTier2":"",
+            "linkTier3": "",
+            "ImageTier3": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archeleon.png",
+            "LinkToPageTier3":""
+        },
+       "CombatAffinity": {
+            "Main": "verdant",
+            "Affinities": ["nature", "nature", "verdant"]
+        },
+        "CombatClass": {
+            "main": "aegis",
+            "classes": ["empath", "bulwark", "aegis"]
+        },
+        "Stats": {
+            "MaxHealth": 1450,
+            "StartingEnergy": 0,
+            "EnergyCost": null,
+            "PhysicalResist": 30,
+            "EnergyResist": 30,
+            "Grit": null,
+            "Resolve": null,
+            "Precision": 25,
+            "AttackPhysicalDamage": 140,
+            "AttackEnergyDamage": null,
+            "AttackPureDamage": null,
+            "AttackSpeed": 50,
+            "Savagery": null,
+            "OmegaPower": 100,
+            "AttackRange": 40,
+            "HealthRegeneration": null,
+            "EnergyRegeneration": null
+        },
+        "BasicAttack":
+        {
+            "Name": "",
+            "Targeting": "target",
+            "Effects": {
+                "Describtion": "Archeleon attacks his current target",
+                "DamageType": "physical",
+                "Amount": "140"
+            }
+        },
+        "Omega": {
+            "Name": "",
+            "Targeting": "target",
+            "Effects": {
+                "Describtion": "Archeleon slams it's front legs to the ground creating a natural zone around themself, Allies within range recover (2% Max Health+31*OP) and Enemies take (15*OP) Energy Damage every 0.3 seconds. Enemies in the zone also become Rooted for 4 seconds.",
+                "DamageType": "",
+                "Amount": ""
+            }
+        },
+        "Hyper": {
+            "Name": "",
+            "Targeting": "",
+            "Effects": {
+                "Describtion": "",
                 "Amount": ""
             }
         }
