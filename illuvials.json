@@ -6,6 +6,7 @@
        "Stage":  1,
        "SizeUnits": 5,
        "MasteryPoints": 30,
+       "Region": ["", ""],
        "Image": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Atlas.png",
        "Line": {
            "Name":"Axolotl",
@@ -24,8 +25,8 @@
            "Affinities": ["water", "", ""]
        },
        "CombatClass": {
-           "main": "bulwark",
-           "classes": ["bulwark", "", ""]
+           "Main": "bulwark",
+           "Classes": ["bulwark", "", ""]
        },
        "Stats": {
            "MaxHealth": 900,
@@ -81,6 +82,7 @@
         "Stage":  2,
         "SizeUnits": 5,
         "MasteryPoints": 40,
+        "Region": ["", ""],
         "Image": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Axon.png",
         "Line": {
             "Name":"Axolotl",
@@ -99,8 +101,8 @@
             "Affinities": ["water", "", ""]
         },
         "CombatClass": {
-            "main": "harbinger",
-            "classes": ["bulwark", "psion", "harbinger"]
+            "Main": "harbinger",
+            "Classes": ["bulwark", "psion", "harbinger"]
         },
         "Stats": {
             "MaxHealth": 1100,
@@ -156,6 +158,7 @@
         "Stage":  3,
         "SizeUnits": 5,
         "MasteryPoints": 55,
+        "Region": ["", ""],
         "Image": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Axodon.png",
         "Line": {
             "Name":"Axolotl",
@@ -174,8 +177,8 @@
             "Affinities": ["water", "water", "tsunami"]
         },
         "CombatClass": {
-            "main": "harbinger",
-            "classes": ["bulwark", "psion", "harbinger"]
+            "Main": "harbinger",
+            "Classes": ["bulwark", "psion", "harbinger"]
         },
         "Stats": {
             "MaxHealth": 1450,
@@ -231,6 +234,7 @@
         "Stage":  1,
         "SizeUnits": 3,
         "MasteryPoints": 30,
+        "Region": ["", ""],
         "Image": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archie.png",
         "Line": {
             "Name":"Turtle",
@@ -249,8 +253,8 @@
             "Affinities": ["nature", "", ""]
         },
         "CombatClass": {
-            "main": "empath",
-            "classes": ["empath", "", ""]
+            "Main": "empath",
+            "Classes": ["empath", "", ""]
         },
         "Stats": {
             "MaxHealth": 900,
@@ -306,6 +310,7 @@
         "Stage":  2,
         "SizeUnits": 3,
         "MasteryPoints": 40,
+        "Region": ["", ""],
         "Image": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archos.png",
         "Line": {
             "Name":"Turtle",
@@ -324,8 +329,8 @@
             "Affinities": ["nature", "", ""]
         },
         "CombatClass": {
-            "main": "aegis",
-            "classes": ["empath", "bulwark", "aegis"]
+            "Main": "aegis",
+            "Classes": ["empath", "bulwark", "aegis"]
         },
         "Stats": {
             "MaxHealth": 1150,
@@ -381,6 +386,7 @@
         "Stage":  3,
         "SizeUnits": 3,
         "MasteryPoints": 55,
+        "Region": ["", ""],
         "Image": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Archeleon.png",
         "Line": {
             "Name":"Turtle",
@@ -399,8 +405,8 @@
             "Affinities": ["nature", "nature", "verdant"]
         },
         "CombatClass": {
-            "main": "aegis",
-            "classes": ["empath", "bulwark", "aegis"]
+            "Main": "aegis",
+            "Classes": ["empath", "bulwark", "aegis"]
         },
         "Stats": {
             "MaxHealth": 1450,
