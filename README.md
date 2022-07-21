@@ -41,6 +41,7 @@ Only fill in what we know, the rest should be empty for the string or a "null" f
         "Stage":  1,
         "SizeUnits": 5,
         "MasteryPoints": 30,
+        "Region": ["", ""],
         "Image:": "https://ik.imagekit.io/2zcxm4xvo/tr:w-186,h-186/Gallery/Website/IlluvialCards/Atlas.png"",
         "Line": {
             "Name":"Axolotl",
@@ -59,8 +60,8 @@ Only fill in what we know, the rest should be empty for the string or a "null" f
             "Affinities": ["water", "", ""]
         },
         "CombatClass": {
-            "main": "bulwark",
-            "classes": ["bulwark", "", ""]
+            "Main": "bulwark",
+            "Classes": ["bulwark", "", ""]
         },
         "Stats": {
             "MaxHealth": 900,
